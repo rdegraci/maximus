@@ -87,4 +87,4 @@ maximus/
 
 ## License
 
-No license file in this repo yet.
+MIT — see [LICENSE](LICENSE). Copyright 2026 Rodney Degracia.
