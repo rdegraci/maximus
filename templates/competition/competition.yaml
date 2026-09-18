@@ -1,0 +1,19 @@
+name: template
+task: "Replace with your competition task description"
+metric:
+  name: metric
+  higher_is_better: true
+commands:
+  train: "python -m src.train"
+  eval: "python -m src.eval"
+  submit: "python -m src.submit"
+allowed_edit_globs:
+  - "src/**"
+  - "configs/**"
+paths:
+  data: data
+  artifacts: artifacts
+  submission: artifacts/submission.csv
+tooling:
+  eval_allowed_for_agent: true
+  train_requires_approval: true
