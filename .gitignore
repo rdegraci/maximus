@@ -16,3 +16,19 @@ build/
 
 # Project-specific cache
 docs/cache/
+
+# Competition run outputs
+competitions/*/artifacts/*
+!competitions/*/artifacts/.gitkeep
+templates/competition/artifacts/*
+!templates/competition/artifacts/.gitkeep
+
+# Experiment runtime state
+competitions/*/experiments/history.jsonl
+competitions/*/experiments/pending_train.md
+**/experiments/.*.lock
+
+# Experiment logs (local only)
+competitions/*/experiments/log.md
+templates/competition/experiments/log.md
+
